@@ -120,9 +120,9 @@
                             <a class="nav-link" href="{{ route('produtos') }}">Produtos</a>
                         </li>
 
-                        <!-- Cadastrar Produto para telas menores -->
+                        <!-- Cadastrar Preço do Produto para telas menores -->
                         <li class="nav-item d-lg-none">
-                            <a class="nav-link" href="{{ route('cadastro_produto') }}">Cadastrar Produto</a>
+                            <a class="nav-link" href="{{ route('cadastro_produto') }}">Cadastrar Preço do Produto</a>
                         </li>
 
                         <!-- Produtos: Com dropdown para telas grandes -->
@@ -132,7 +132,7 @@
                                 Produtos
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown" onmouseenter="keepDropdown()" onmouseleave="hideDropdown()">
-                                <li><a class="dropdown-item" href="{{ route('cadastro_produto') }}">Cadastrar Produto</a></li>
+                                <li><a class="dropdown-item" href="{{ route('cadastro_produto') }}">Cadastrar Preço do Produto</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -854,7 +854,7 @@
                         <li><a href="{{ route('home') }}" class="text-light">Início</a></li>
                         <li><a href="{{ route('mercados') }}" class="text-light">Mercados</a></li>
                         <li><a href="{{ route('produtos') }}" class="text-light">Produtos</a></li>
-                        <li><a href="{{ route('cadastro_produto') }}" class="text-light">Cadastrar Produto</a></li>
+                        <li><a href="{{ route('cadastro_produto') }}" class="text-light">Cadastrar Preço do Produto</a></li>
                     </ul>
                 </div>
 
